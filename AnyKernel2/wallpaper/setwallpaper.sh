@@ -84,7 +84,7 @@ fi
 # ONE PLUS TWO
 
 if [ $(getprop ro.product.device) == "OnePlus2" ] || [ $(getprop ro.product.device) == "oneplus2" ] || [ $(getprop ro.product.device) == "A2001" ] || [ $(getprop ro.product.device) == "A2003" ] || [ $(getprop ro.product.device) == "A2005" ]; then
-	cp /tmp/hammerheadwallpaper /data/system/users/0/wallpaper
+	cp /tmp/wallpaper/hammerheadwallpaper /data/system/users/0/wallpaper
 	chmod 777 /data/system/users/0/wallpaper
 	chown system:system /data/system/users/0/wallpaper
 fi
